@@ -13,7 +13,6 @@ namespace Gambler
             while (amount > 0 && amount < 100)
             {
                 bet++;
-                amount = amount + bet;
             }
         }
     }
